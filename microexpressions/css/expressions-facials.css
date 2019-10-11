@@ -1,0 +1,124 @@
+.imatges img, .activitat img,  .cnt_imatges img {
+  width: 100%;
+}
+
+.cnt_imatges {
+    border: 1px solid var(--border-light-gray);
+    border-radius: 5px;
+}
+
+.expressions {
+  font-weight: bold;
+}
+
+.titol_apartat, .apartat {
+  border-color: var(--border-button);
+  border-style: solid;
+  border-width: 0 1px 1px 1px;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.titol_apartat {
+  background: var(--bg-titol-apartat);
+  color: var(--white);
+}
+
+.apartat {
+  background: var(--bg-buton-light);
+  color: var(--color-cnv);
+}
+
+.apartat:hover {
+    background-color: var(--bg-button-hover);
+    color: var(--text-button-hover);
+    cursor: pointer;
+}
+
+.marcat {
+    background-color: var(--bg-button-marcat);
+    border-color: var(--bg-titol-apartat);
+    color: var(--text-marcat);
+    font-weight: bold;
+}
+
+/*.marc_activitat {
+  max-width: 986px;
+}*/
+
+.mig_apartat {
+  border-width: 0 1px 1px 0;
+  float: left;
+  width: 50%;
+}
+
+.seccio {
+  clear: both;
+  margin-top: 20px;
+}
+
+.seccio:first-child {
+  margin-top: 0;
+}
+
+#carrega {
+  border-width: 1px;
+}
+
+#next {
+  border-width: 1px 1px 1px 0;
+}
+
+#inici, #avancat {
+  border-left-width: 1px;
+}
+
+.clica_aqui {
+    background: var(--bg-titol-apartat);
+    border: 1px solid var(--border-button);
+    color: var(--white);
+    left: 35%;
+    padding: 10px;
+    position: absolute;
+    top: 45%;
+}
+
+.clica_aqui:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.apartat.correct {
+  border-right: 10px solid var(--correct-color);
+}
+
+.apartat.warning {
+  border-right: 10px solid var(--warining-color);
+}
+
+.puntuacio {
+  /*background-image:  url('https://www.prisma.cat/documents/imatges/fons/activitats.png');*/
+  background:  var(--white);
+  border: 1px solid var(--border-light-gray);
+  color: var(--color-cnv);
+  font-size: 30px;
+  margin: 30px auto;
+  padding: 20px;
+  width: fit-content;
+  width: -moz-fit-content;
+}
+
+.comencar {
+  background-color:  var(--bg-titol-apartat);
+  border: 1px solid var(--border-button);
+  color: var(--white);
+  cursor: pointer;
+  margin: 0 auto;
+  padding: 10px;
+  width: fit-content;
+  width: -moz-fit-content;
+}
+
+.pagines {
+  margin-top: 20px;
+  text-align: center;
+}

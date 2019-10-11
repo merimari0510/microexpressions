@@ -1,0 +1,89 @@
+a {
+	color: var(--color-prisma);
+}
+
+body {
+	background-image: url('https://www.prisma.cat/documents/imatges/fons/activitats.png');
+	font-family: Roboto, 'Arial', sans-serif;
+	text-align: justify;
+}
+
+.row {
+	align-items: center;
+	display: flex;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.capcalera {
+	height: 30%;
+}
+
+.marc_activitat, .marc_activitat_error {
+	background-color: var(--white);
+	/*border: 1px solid var(--border-light-gray);
+	margin: 25px auto;*/
+	margin: 0;
+	width: 70%;
+}
+
+/*.marc_activitat {
+	padding: 25px 10px;
+	width: 95%;
+}*/
+
+.marc_activitat {
+	padding: 15px 0;
+	width: 100%;
+}
+
+.marc_activitat_error {
+	border: 1px solid var(--border-light-gray);
+	margin: 30px auto;
+	padding: 0 25px 10px 0;
+	width: 70%;
+}
+
+a.navegador{
+	color: #23527c;
+	font-weight: bold;
+	padding: 0;
+}
+
+a.navegador:hover{
+	color:  #007bff;
+	font-weight: bold;
+	padding: 0;
+}
+
+.cos_error {
+	padding-bottom: 20px;
+	padding-top: 11px;
+}
+
+.peu {
+	color: #99ACCA;
+}
+
+.peu a {
+	color: var(--color-prisma);
+}
+
+.peu a:hover {
+	color:  #007bff;
+}
+
+.cos_error, .peu {
+	text-align: center;
+}
+
+.marc-treball {
+	background-color: var(--bg-marc-treball);
+	border: 1px solid var(--color-cnv);
+	margin-top: 91px;
+	padding: 17px 12px;
+}
+
+.punt {
+	background: inherit;
+}
