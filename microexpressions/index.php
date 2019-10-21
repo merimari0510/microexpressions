@@ -1,9 +1,3 @@
-<?php
-
-require('../../../../config.php');
-
-$course = 'CNV'; //CODI_CURS QUE TOCA
-?>
 <!DOCTYPE html>
 <html lang="ca">
 <head>
@@ -30,11 +24,6 @@ $course = 'CNV'; //CODI_CURS QUE TOCA
 </head>
 <body topmargin="0">
   <div id="row_activitat" class="row">
-  		<?php
-  		if (isloggedin()) {
-        include('./inc/comprovarUser.php');
-  			if($user_course) {
-  			?>
   			 <script>
   				var es_chrome = navigator.userAgent.toLowerCase().indexOf('chrome') > -1;
   				var es_firefox = navigator.userAgent.toLowerCase().indexOf('firefox') > -1;
@@ -47,19 +36,6 @@ $course = 'CNV'; //CODI_CURS QUE TOCA
             mostrarActivitat();
           }
   			</script>
-  			<?php
-  			}
-  			else {
-          include('./inc/errorNoInscritCurs.php');
-  			}
-  		}
-  		else {
-        include('./inc/errorNoIniciatSessio.php');
-        ?>
-
-        <?php
-  		}
-  		?>
     <div style="clear: both;"></div>
   </div>
 
