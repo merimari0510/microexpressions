@@ -9,7 +9,7 @@ var totalPaginesRespostes = 0;
 
 function mostrarActivitat() {
   $.ajax({
-    url: "https://www.prisma.cat/campus/documents/activitat/cnv/encertaDistancia/ajax/mostrarEsquemaActivitat.php",
+    url: "ajax/mostrarEsquemaActivitat.php",
     cache: false,
     type: "GET",
     success: function (model) {
