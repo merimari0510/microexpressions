@@ -22,16 +22,8 @@
 <body topmargin="0">
   <div id="row_activitat" class="row">
   			 <script>
-  				var es_chrome = navigator.userAgent.toLowerCase().indexOf('chrome') > -1;
-  				var es_firefox = navigator.userAgent.toLowerCase().indexOf('firefox') > -1;
-
-  				if (!es_chrome && !es_firefox) {
-  					$('#row_activitat').html("<div id='activitat' class='col-md-12 marc_activitat_error'><div class='error'><img class='capcalera' src='https://www.prisma.cat/campus/documents/activitat/banner_prisma_rectangle.png'></div><div id='cos_error'><p style='margin-right: 40px; margin-left: 40px; text-align: center; line-height: 25px;'>Per evitar incompatibilitats és necessari utilitzar el navegador <a href='https://www.google.com/intl/es/chrome/browser/?hl=es' target='_blank' class='navegador'>Chrome</a> o <a href='https://www.mozilla.org/es-ES/firefox/new/' target='_blank' class='navegador'>Firefox</a>.</p><p style='margin-right: 40px; margin-left: 40px; text-align: center; line-height: 25px; text-align: center'>Per a qualsevol dubte podeu enviar-nos un correu a través del formulari d'<a href='https://www.prisma.cat/menu/usuari/suport.php' target='_blank' class='navegador'>Incidències tècniques</a>.</p></div><div id='peu' align='center'><br>Pl. Poeta Marquina 5, 1r-1a · 17002 Girona · 972 21 75 65 · 678 12 36 87 · <a href='https://www.prisma.cat' target='_blank'>www.prisma.cat</a> · secretaria@prisma.cat</div></div>");
-  				}
-          else {
             $('#row_activitat').html("<div id='activitat' class='col-md-12 marc_activitat'></div>");
             mostrarActivitat();
-          }
   			</script>
     <div style="clear: both;"></div>
   </div>
