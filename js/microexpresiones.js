@@ -17,14 +17,7 @@ function mostrarActivitat() {
 
       $('#comenca').click(function () {
         inicialitzarActivitat();
-
-        /*$('#next').click(function () {
-          next();
-        });*/
-
       });
-
-
     }
   });
 }
@@ -84,32 +77,15 @@ function mostrarResultat() {
   paginesRespostes++;
   var mostrar2 = mostrarResultatArray(paginesRespostes, 12, 18);
 
-  //mostrar = "<div id='paginesRespostes' class='pagines'>Imatge " + paginesRespostes + " de " + totalPaginesRespostes + "</div>";
   var mostrar = "<div class='col-md-6 enllac'><div id = 'descarregarPDF'>Descarrega els resultats en PDF</div></div>";
-  //mostrar += "<div class='col-md-6 enllac'><div id = 'veurePagina2'>Veure la pàgina 2</div></div>";
   mostrar += "<div style='clear: both;'></div>";
 
   $('#activitat').html(mostrar1 + mostrar2 + mostrar);
   $("#activitat").css("background","#ffffff");
 
-  /*$('#activitatPart2').css('display','none');
-  $('#activitatPart1').css('display','');*/
-
   $('#descarregarPDF').click(function () {
     descarregarPDF();
   });
-
-  /*$('#veurePagina2').click(function () {
-    if ($('#veurePagina2').html() == 'Veure la pàgina 2') {
-      $('#veurePagina2').html('Veure la pàgina 1');
-      $('#activitatPart1').css('display','');
-      $('#activitatPart2').css('display','none');
-    } else {
-      $('#veurePagina2').html('Veure la pàgina 2');
-      $('#activitatPart2').css('display','');
-      $('#activitatPart1').css('display','none');
-    }
-  });*/
 }
 
 function mostrarNomAmbAccents(nom) {
