@@ -9,7 +9,7 @@ var totalPaginesRespostes = 0;
 
 function mostrarActivitat() {
   $.ajax({
-    url: "ajax/mostrarEsquemaActivitat.php",
+    url: "https://merimari0510.github.io/microexpressions/ajax/mostrarEsquemaActivitat.php",
     cache: false,
     type: "GET",
     success: function (model) {
