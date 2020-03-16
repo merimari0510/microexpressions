@@ -1,0 +1,34 @@
+:root {
+  --white: #FFFFFF;
+  --color-cnv: #0D6482;
+  --color-prisma: #5A7BB8;
+
+/************** BACKGROUNDS **************/
+--bg-marc-treball: #E7F1EE;
+--bg-titol-apartat: #557580;
+--bg-buton-light: #FDFDFD;
+--bg-button-hover: #EBE6E5;
+--bg-button-marcat: #DADEDF;
+
+/************** BORDER **************/
+/*--border-gray-clar: #e3e3e3;
+--border-dark-color-reg: #27584A;
+--border-input: #3F7B8C;*/
+
+--border-button: #717C80;
+--border-light-gray: #CCCCCC;
+
+/************** TEXT COLORS **************/
+/*--titol-color-reg: #27584A;
+--color-reg: #3f8c77;
+--text-input: #274D58;*/
+/* --text-color-reg: #706454; */
+/*--cmpl-color-reg: #8CAAD2;*/
+/*--main-txt-color-navegador: #007bff;*/
+
+--text-button: #0D6482;
+--text-button-hover: #474747;
+--text-marcat: #505050;
+--correct-color: #BCD1A9;
+--warining-color: #E16671;
+}
