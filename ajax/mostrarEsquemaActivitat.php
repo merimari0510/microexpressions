@@ -2,7 +2,7 @@
 
 $html .= "<div class='col-md-8'>";
 $html .= "<div id='imatges' class='cnt_imatges'>";
-$html .= "<img src='https://www.prisma.cat/documents/imatges/fons/activitats.png' />";
+$html .= "<img src='https://merimari0510.github.io/microexpressions/img/activitats.png' />";
 $html .= "<button id='comenca' class='clica_aqui'>Clica aquí per començar</button>";
 $html .= "</div></div>";
 $html .= "<div class='col-md-4'>";
